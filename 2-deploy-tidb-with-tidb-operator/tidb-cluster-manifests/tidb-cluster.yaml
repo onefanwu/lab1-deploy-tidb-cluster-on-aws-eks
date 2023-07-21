@@ -22,7 +22,7 @@ spec:
     baseImage: pingcap/tikv
     maxFailoverCount: 0
     evictLeaderTimeout: 1m
-    replicas: 1
+    replicas: 2
     requests:
       storage: "1Gi"
     config:
